@@ -1,0 +1,22 @@
+.Table {
+    margin: 20px 0;
+}
+
+.Table thead tr {
+    background: #3498db;
+    color: white;
+}
+
+.Comprado span, .Vendido span {
+    padding: 3px 9px;
+    border-radius: 6px;
+    color: white;
+}
+
+.Comprado span {
+    background-color: #e74c3c;
+}
+
+.Vendido span {
+    background-color: #2ecc71;
+}

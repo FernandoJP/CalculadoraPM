@@ -1,0 +1,41 @@
+.CustomFileLabel {
+    margin: 20px auto 35px auto;
+}
+
+.CustomFileLabel input {
+    visibility: hidden;
+}
+
+.CustomFileLabel label{
+    margin: 0 auto;
+    position: relative;
+    width: 500px;
+    top: 20px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.CustomFileLabel label::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    display: block;
+    height: calc(calc(2.25rem + 2px) - 1px * 2);
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    content: "Browse";
+    border-left: 1px solid #ced4da;
+    border-radius: 0 .25rem .25rem 0;
+    background: #3498db;
+    color: white;
+}
